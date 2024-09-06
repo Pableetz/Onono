@@ -1,0 +1,40 @@
+li {
+  list-style-type: none;
+}
+
+.navBar-container {
+  /* opacity du background */
+
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(245, 245, 245, 0);
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navBar li,
+ul {
+  display: flex;
+  gap: 2vw;
+}
+
+.navBar ul {
+  margin-right: 2vw;
+}
+
+.rez {
+  font-size: 2vw;
+}
+
+.rez li,
+.navBar li {
+  cursor: pointer;
+}
